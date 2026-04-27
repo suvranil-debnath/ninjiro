@@ -310,9 +310,7 @@ export default function Home() {
         <div className="relative group">
           <div className="absolute inset-0 bg-emerald-400/20 rounded-full blur-[80px] group-hover:bg-emerald-400/30 transition-all duration-700 animate-pulse"></div>
           <div className="glass-panel bg-white/50 backdrop-blur-3xl p-12 md:p-20 rounded-[4rem] border border-white/80 shadow-2xl relative z-10 hover:scale-105 transition-transform duration-700 overflow-hidden">
-            <div className="absolute top-0 right-0 p-8">
-              <span className="font-limelight text-6xl text-emerald-900/5 select-none tracking-widest uppercase">Depth</span>
-            </div>
+    
             <img src="/blulagoonbox.png" alt="Mocktail Box" className="w-full max-w-[320px] h-auto drop-shadow-[0_20px_50px_rgba(6,78,59,0.3)] rotate-12 group-hover:rotate-0 transition-all duration-1000" />
             <div className="mt-12 text-center">
               <p className="font-black italic text-4xl text-emerald-950 tracking-tighter">NINJIRO✧</p>
@@ -458,7 +456,7 @@ export default function Home() {
 
     {/* Bottom Footer */}
     <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-emerald-500/60 text-xs font-bold tracking-widest uppercase">
-      <p>© 2026 NINJIRO✧. Crafted with Botanical Depth.</p>
+      <p>© 2026 NINJIRO✧. Crafted with care.</p>
       <div className="flex gap-6">
         <a href="#" className="hover:text-emerald-300 transition-colors">Privacy</a>
         <a href="#" className="hover:text-emerald-300 transition-colors">Terms</a>
